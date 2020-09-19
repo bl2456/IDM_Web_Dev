@@ -2,7 +2,7 @@
   "name": "bl2456.github.io",
   "version": "1.0.0",
   "description": "Github IO Page",
-  "homepage": "http://bl2456.github.io/IDM_Web_Dev",
+  "homepage": "http://bl2456.github.io/IDM_Web_Dev/",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot",

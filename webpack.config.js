@@ -29,6 +29,7 @@ module.exports = {
                     options: {
                         limit: 10000,
                         mimetype: 'video/mp4',
+                        name: 'videos/[name].[ext]'
                     }
                 }
               },
@@ -43,8 +44,13 @@ module.exports = {
                 }
             },
             {
-                test: /\.(jpe?g|png|gif|svg)$/i, 
-                loader: "file-loader"
+                test: /\.(jpe?g|png|gif|svg)$/i,
+                use: {
+                    loader: "file-loader",
+                    options: {
+                        name: 'images/[name].[ext]'
+                    }
+                } 
             },
         ]
     },
