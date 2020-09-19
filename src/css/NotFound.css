@@ -1,0 +1,13 @@
+
+h1{
+    text-align: center;
+}
+
+#returnButtonContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.errorMessage{
+    color: #ffffff;
+}

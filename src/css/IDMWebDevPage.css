@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+}
+video {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.gridContainer{
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-gap: 4em;
+    grid-auto-rows: minmax(50px, auto);
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+.gridLink{
+    text-decoration: none;
+    color: #000000;
+    font-size: 2rem;
+}
+
+.gridItem{
+    text-align: center;
+    background-color: #dad5d5;
+    transition: ease-in-out 0.5s;
+    opacity: 0.4;
+    border: 1px solid #000000;
+    border-radius: 40px; 
+    justify-content: center;
+}
+
+.gridItem:hover{
+    opacity: 0.8;
+}
+
+.gridLink:hover{
+    cursor: pointer;
+}
