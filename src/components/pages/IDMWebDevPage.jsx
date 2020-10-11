@@ -18,7 +18,10 @@ const WebDevPage = () => {
                     <Link to='/IDMWeek3' className="gridLink"> Week 3</Link>
                 </div>
                 <div className="gridItem">
-                    <Link to='/' className="gridLink"> Week 4</Link>
+                    <a href="https://bl2456.github.io/Hayao_Miyazaki/">Week 4/5</a>
+                </div>
+                <div className="gridItem">
+                    <Link to='/IDMWeek6' className="gridLink"> Week 6</Link>
                 </div>
             </div>
         </div>

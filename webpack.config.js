@@ -5,7 +5,7 @@ module.exports = {
     entry: './src/index.js',
     output: {
         path: path.join(__dirname, './dist'),
-        filename: 'main.js',
+        filename: 'index.js',
     },
     // define babel loader
     module: {
@@ -29,7 +29,7 @@ module.exports = {
                     options: {
                         limit: 10000,
                         mimetype: 'video/mp4',
-                        name: 'videos/[name].[ext]'
+                        name: 'assets/[name].[ext]',
                     }
                 }
               },
@@ -48,7 +48,7 @@ module.exports = {
                 use: {
                     loader: "file-loader",
                     options: {
-                        name: 'images/[name].[ext]'
+                        name: 'assets/[name].[ext]',
                     }
                 } 
             },
